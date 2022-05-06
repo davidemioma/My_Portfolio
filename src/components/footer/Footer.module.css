@@ -1,0 +1,11 @@
+.footer {
+  margin: 5rem 0 2rem 0;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+.icons {
+  display: flex;
+  gap: 0.5rem;
+}

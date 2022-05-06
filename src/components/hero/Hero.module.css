@@ -1,0 +1,46 @@
+.hero {
+  margin: 7rem 0 5rem 0;
+  width: 100%;
+}
+
+.hero h1 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.hero p {
+  opacity: 0.7;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 800px) {
+  .hero {
+    width: 80%;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    width: 75%;
+  }
+
+  .hero h1 {
+    font-size: 3.8rem;
+  }
+}
+
+@media screen and (min-width: 1124px) {
+  .hero {
+    padding: 0;
+    width: 70%;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+  }
+}

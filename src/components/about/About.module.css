@@ -1,0 +1,54 @@
+.about {
+  margin-bottom: 5rem;
+  width: 100%;
+}
+
+.about h1 {
+  margin-bottom: 1.5rem;
+}
+
+.about p {
+  line-height: 1.7;
+  opacity: 0.8;
+  margin-bottom: 1.5rem;
+}
+
+.about ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.about ul li {
+  border-radius: 15px;
+  padding: 0.3rem 0.5rem;
+}
+
+.tools_dark li {
+  background: #fff;
+  color: #0f1624;
+}
+
+.tools_light li {
+  background: #0f1624;
+  color: #fff;
+}
+
+@media screen and (min-width: 800px) {
+  .about {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1124px) {
+  .about {
+    width: 70%;
+  }
+}

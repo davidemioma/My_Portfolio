@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  display: grid;
+}
+
+.contact h1,
+.contact h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.contact button {
+  justify-self: center;
+}

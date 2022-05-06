@@ -1,0 +1,95 @@
+.projects {
+  margin-bottom: 5rem;
+}
+
+.projects h1 {
+  margin-bottom: 1.5rem;
+}
+
+.projects h3 {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.list {
+  display: grid;
+  gap: 5rem;
+  margin-bottom: 3rem;
+}
+
+.project {
+  display: grid;
+  gap: 1rem 2rem;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bd_dark {
+  border: 2px solid #fff;
+}
+
+.bd_light {
+  border: none;
+}
+
+.desc {
+  margin: 0.8rem 0;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tag {
+  border-radius: 15px;
+  padding: 0.3rem 0.5rem;
+}
+
+.tag_dark {
+  background: #fff;
+  color: #0f1624;
+}
+
+.tag_light {
+  background: #0f1624;
+  color: #fff;
+}
+
+.icons {
+  margin-top: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon_dark {
+  color: #fff;
+}
+
+.icon_light {
+  color: black;
+}
+
+.icon_dark:hover,
+.icon_light:hover {
+  color: #b133ff;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .project {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+}
