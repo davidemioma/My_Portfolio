@@ -1,12 +1,22 @@
 export const projects = [
   {
+    title: "Admin Dashboard App",
+    description: "Responsive admin site with theme and color switcher",
+    image: "/assets/admin.png",
+    tags: ["HTML", "CSS", "JavaScript", "React", "Next Js"],
+    github: "https://github.com/davidemioma/NextJs_Admin_UI_Site",
+    liveSite: "https://next-js-admin-ui-site.vercel.app/",
+    id: 0,
+  },
+
+  {
     title: "Netflix Clone App",
     description: "Movie collection and subscription with stripe",
     image: "/assets/netflix.png",
     tags: ["HTML", "CSS", "JavaScript", "React", "Firebase", "Stripe"],
     github: "https://github.com/davidemioma/React_Netflix_Clone",
     liveSite: "https://netflixclonemovielist.netlify.app/",
-    id: 0,
+    id: 1,
   },
 
   {
@@ -16,7 +26,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "React", "Firebase"],
     github: "https://github.com/davidemioma/React_Invoices_App_with_firestore",
     liveSite: "https://invoices-by-david.netlify.app/",
-    id: 1,
+    id: 2,
   },
 
   {
@@ -26,7 +36,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "React", "Sanity.io"],
     github: "https://github.com/davidemioma/React_ShareMe_site",
     liveSite: "https://sharemebydavid.netlify.app/",
-    id: 2,
+    id: 3,
   },
 
   {
@@ -36,6 +46,6 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "React", "Firebase"],
     github: "https://github.com/davidemioma/React_Entertaiment_App",
     liveSite: "https://entertainment-app-by-david.netlify.app/",
-    id: 3,
+    id: 4,
   },
 ];
