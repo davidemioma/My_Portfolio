@@ -13,10 +13,25 @@
 
 .nav_dark {
   background: black;
+  color: #fff;
 }
 
 .nav_light {
   background: #fff;
+  color: #0f1624;
+}
+
+.nav_dark a {
+  color: #fff;
+}
+
+.nav_light a {
+  color: #0f1624;
+}
+
+.nav_dark a:hover,
+.nav_light a:hover {
+  color: #b133ff;
 }
 
 .nav,

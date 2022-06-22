@@ -16,7 +16,9 @@ html {
 }
 
 .bg_dark {
-  background: #0f1624;
+  background-image: url(../public/assets/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #f2f2f2;
 }
 
@@ -40,8 +42,8 @@ html {
 
 .btn_link {
   width: 150px;
-  padding: 0.6rem 1rem;
-  border-radius: 17px;
+  padding: 0.7rem 1rem;
+  border-radius: 20px;
   border: none;
   outline: none;
   cursor: pointer;

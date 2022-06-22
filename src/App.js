@@ -9,19 +9,21 @@ import Projects from "./components/projects/Projects";
 
 const App = () => {
   return (
-    <Layout>
+    <div>
       <Header />
 
-      <Hero />
+      <Layout>
+        <Hero />
 
-      <About />
+        <About />
 
-      <Projects />
+        <Projects />
 
-      <Contact />
+        <Contact />
 
-      <Footer />
-    </Layout>
+        <Footer />
+      </Layout>
+    </div>
   );
 };
 

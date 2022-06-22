@@ -8,6 +8,10 @@
   z-index: 20;
 }
 
+.bg_dark {
+  color: #fff;
+}
+
 .modal div,
 .logo {
   display: flex;

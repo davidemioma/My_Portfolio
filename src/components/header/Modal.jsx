@@ -21,6 +21,7 @@ const Modal = () => {
       <div>
         <div className={classes.logo}>
           <DiCssdeck fontSize="40px" />
+
           <p>Portfolio</p>
         </div>
 
