@@ -10,12 +10,12 @@ export const projects = [
   },
 
   {
-    title: "Netflix Clone App",
-    description: "Movie collection and subscription with stripe",
-    image: "/assets/netflix.png",
-    tags: ["HTML", "CSS", "JavaScript", "React", "Firebase", "Stripe"],
-    github: "https://github.com/davidemioma/React_Netflix_Clone",
-    liveSite: "https://netflixclonemovielist.netlify.app/",
+    title: "Gmail Clone App",
+    description: "Sending Emails",
+    image: "/assets/gmail.png",
+    tags: ["HTML", "CSS", "JavaScript", "React", "Next Js", "Firebase"],
+    github: "https://github.com/davidemioma/Gmail-Clone",
+    liveSite: "https://gmail-clone-chi.vercel.app/",
     id: 1,
   },
 
