@@ -20,12 +20,21 @@ export const projects = [
   },
 
   {
-    title: "Invoice App",
-    description: "Invoice tracking app",
-    image: "/assets/invoice.png",
-    tags: ["HTML", "CSS", "JavaScript", "React", "Firebase"],
-    github: "https://github.com/davidemioma/React_Invoices_App_with_firestore",
-    liveSite: "https://invoices-by-david.netlify.app/",
+    title: "Spotify Music Player",
+    description:
+      "Spotify Music Player, and music player only works for premium spotify users",
+    image: "/assets/spotify-v2.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Next JS",
+      "Next Auth",
+      "Spotify Api",
+    ],
+    github: "https://github.com/davidemioma/Spotify_v2_Clone",
+    liveSite: "https://spotify-v2-clone.vercel.app/",
     id: 2,
   },
 
@@ -40,12 +49,21 @@ export const projects = [
   },
 
   {
-    title: "Entertaiment App",
-    description: "Movie collection",
-    image: "/assets/entertainment.png",
-    tags: ["HTML", "CSS", "JavaScript", "React", "Firebase"],
-    github: "https://github.com/davidemioma/React_Entertaiment_App",
-    liveSite: "https://entertainment-app-by-david.netlify.app/",
+    title: "Music Player",
+    description:
+      "Music Player, it uses spotify api and the music player only works for premium spotify users",
+    image: "/assets/spotify.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Next JS",
+      "Next Auth",
+      "Spotify Api",
+    ],
+    github: "https://github.com/davidemioma/Spotify_Clone",
+    liveSite: "https://spotify-clone-self-psi.vercel.app/",
     id: 4,
   },
 ];
